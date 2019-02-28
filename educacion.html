@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Resumen Curricular - Educación</title>
+  </head>
+
+  <header  align="center">
+    <img src="img/logojef.svg" alt="" width="150px" height="150px">
+    <h1><strong>Resumen Curricular</strong></h1>
+  </header>
+
+  <body>
+    <h2><strong>Datos Personales</strong></h2>
+    <h3><strong>Nombres: </strong>Juan Eduardo</h3>
+    <h3><strong>Apellidos: </strong>Frohlich Cárdenas</h3>
+    <h3><strong>Fecha de nacimiento: </strong>24 de Junio 1962</h3>
+    <h3><strong>Lugar de nacimiento: </strong>Osorno - Chile</h3>
+    <h2><strong>Enlaces de menú</strong></h2>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2><strong>Educación</strong></h2>
+    <table border="1">
+		  <tr  align="center">
+	      <th>Años</th>
+        <th>Curso - Carrera</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+	    </tr>
+	    <tr>
+        <td>1969 - 1976</td>
+        <td>Enseñanza Básica</td>
+        <td>Escuela Básica Nº 1</td>
+        <td>Osorno</td>
+        <td align="center">Si</td>
+		  </tr>
+      <tr>
+        <td>1977 - 1980</td>
+        <td>Enseñanza Media</td>
+        <td>Colegio San Mateo</td>
+        <td>Osorno</td>
+        <td align="center">Si</td>
+		  </tr>
+      <tr>
+        <td>1981 - 1986</td>
+        <td>Ingeniería</td>
+        <td>Universidad de Santiago</td>
+        <td>Santiago</td>
+        <td align="center">Si</td>
+		  </tr>
+      <tr>
+        <td>1998 - 1999</td>
+        <td>Diplomado</td>
+        <td>Universidad de Chile</td>
+        <td>Santiago</td>
+        <td align="center">Si</td>
+		  </tr>
+      <tr>
+        <td>2001 - 2002</td>
+        <td>Magister - MBA</td>
+        <td>Universidad Adolfo Ibañez</td>
+        <td>Santiago</td>
+        <td align="center">Si</td>
+		  </tr>
+      <tr>
+        <td>2019 - 2019</td>
+        <td>Desarrollo Web</td>
+        <td>Next University</td>
+        <td>Online</td>
+        <td align="center">No</td>
+		  </tr>
+		</table>
+    <br>
+    <h3><strong>Agregar Estudios</strong></h3>
+    <form name="formulario">
+      <fieldset>
+        <label for="años"><strong>Años:</strong></label>
+        <input type="number" name="Años1" value="2019" required>
+        <input type="number" name="Años2" value="2019" required>
+        <label for="curso"><br><br><strong>Curso:</strong></label>
+        <input type="text" name="curso" placeholder="Ingrese el curso (Sólo se permiten letras, números y espacios)"
+               size="50" maxlength="50" required pattern="[A-Za-z0-9]+[\ ]">
+        <label for="institucion"><br><br><strong>Institución:</strong></label>
+        <input type="text" name="institucion" placeholder="Ingrese la institución (Sólo se permiten letras, números y espacios)"
+               size="80" maxlength="80" required pattern="[A-Za-z0-9]+[\ ]">
+        <label for="lugar"><br><br><strong>Lugar:</strong></label>
+        <input type="text" name="lugar" placeholder="Ingrese el lugar (Sólo se permiten letras, números y espacios)"
+               size="50" maxlength="50" required pattern="[A-Za-z0-9]+[\ ]">
+        <label for="culmino"><br><br><strong>¿Culminó?:</strong></label>
+        <input type="radio" name="culmino" value="1" checked>Si
+        <input type="radio" name="culmino" value="2">No
+        <br><br><input type="submit" value="Enviar">
+      </fieldset>
+    </form>
+  </body>
+
+  <footer>
+    <br>
+    <fieldset>
+      <p align="center"><strong>Correo Electrónico: <em>jefro1234@hotmail.com</em> - Teléfono: +56 9 9436 5598</strong></p>
+    </fieldset>
+  </footer>
+</html>
